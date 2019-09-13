@@ -1,0 +1,128 @@
+header {
+  background-image: url(../img/background-1507145_1920.jpg);
+  height: 15rem; }
+
+h1 {
+  font-family: Georgia, sans-serif;
+  color: black;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive, Arial, sans-serif; }
+
+.animation {
+  text-align: center;
+  animation: slidein 4s 1; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+nav {
+  border: 1px solid black;
+  background-image: radial-gradient(circle, #abffbd, #8de4a3, #70ca89, #52b070, #319758); }
+
+.nav-link {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Caveat', cursive, Arial, sans-serif;
+  font-size: 1.4em; }
+
+.nav-item {
+  display: block;
+  margin: 0 auto; }
+
+.navani {
+  animation: bounce 4s 1; }
+
+@keyframes bounce {
+  from {
+    top: 50px; }
+  50% {
+    top: 25px; }
+  to {
+    top: 50px; } }
+.cv__skills, .cv__formations, .cv__exp, .cv__hobbies, .cv__profil, .cv__projects {
+  border: 1px solid black;
+  border-radius: 5% 5% 5% 5%;
+  margin-top: 5px;
+  height: 485px;
+  margin-left: auto;
+  background-image: radial-gradient(circle, #abcdff, #8db4e4, #6f9bca, #5183b0, #316c97);
+  box-shadow: 10px 10px 10px black; }
+.cv__imgpro {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 1px solid black;
+  margin: 3px;
+  float: right; }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 1rem; }
+
+.fab, .fas, .far {
+  margin-right: .5rem;
+  margin-left: .5rem; }
+
+.img__projects {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+a.cvpdf {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 2vh;
+  margin-left: 5px; }
+
+/* version ordinateur */
+@media screen and (min-width: 800px) {
+  .cv__skills, .cv__formations, .cv__exp, .cv__hobbies, .cv__profil, .cv__projects {
+    border: 1px solid black;
+    border-radius: 5% 5% 5% 5%;
+    margin-top: 5px;
+    height: 250px;
+    margin-left: auto;
+    background-image: radial-gradient(circle, #abcdff, #8db4e4, #6f9bca, #5183b0, #316c97);
+    box-shadow: 10px 10px 10px black; } }
+.aside__contact {
+  border: 1px solid black;
+  border-radius: 5% 5% 5% 5%;
+  margin-top: 5px;
+  height: 300px;
+  background-image: linear-gradient(to right top, #ffe1ab, #e5c08a, #cb9f6a, #b1804d, #976131);
+  box-shadow: 10px 10px 10px black; }
+
+body {
+  background-color: pink; }
+
+h2 {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Parisienne', cursive, Arial, sans-serif; }
+
+p {
+  color: black;
+  padding: 3px; }
+
+h3 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px black; }
+
+/*# sourceMappingURL=style.css.map */

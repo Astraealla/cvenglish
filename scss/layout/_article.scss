@@ -1,0 +1,73 @@
+.cv{
+
+    &__skills, &__formations, &__exp, &__hobbies, &__profil, &__projects{
+        border: $border;
+        border-radius: $radius;
+        margin-top: $martop;
+        height: 485px;
+        margin-left: auto;
+        background-image: radial-gradient(circle, #abcdff, #8db4e4, #6f9bca, #5183b0, #316c97);
+        box-shadow: $boxshad;
+    }
+
+    &__imgpro{
+    
+    width:150px;
+    height: 150px;
+    border-radius: 75px;
+    border: $border;
+    margin: 3px;
+    float: right;
+    }
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 1rem;
+    
+}
+
+.fab, .fas, .far
+{
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+
+.img__projects{
+    width: 150px;
+    height: 150px;
+    border-radius:75px;
+    border: $border;
+    margin: auto;
+    display: flex;
+    justify-content: $center;
+    flex-wrap: wrap;
+}
+
+a.cvpdf{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 2vh;
+    margin-left: 5px;
+}
+/* version ordinateur */
+
+@media screen and (min-width: 800px){
+    
+    .cv{
+        &__skills, &__formations, &__exp, &__hobbies, &__profil, &__projects{
+            border: $border;
+            border-radius: $radius;
+            margin-top: $martop;
+            height: 250px;
+            margin-left: auto;
+            background-image: radial-gradient(circle, #abcdff, #8db4e4, #6f9bca, #5183b0, #316c97);
+            box-shadow: $boxshad;
+        }
+    }
+}

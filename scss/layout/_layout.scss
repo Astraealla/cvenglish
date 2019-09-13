@@ -1,0 +1,22 @@
+body{
+    background-color: pink;
+}
+
+h2{
+    color: white;
+    text-decoration: underline;
+    text-align: $center;
+    text-shadow: $texshad;
+    font-family: 'Parisienne', cursive, Arial, sans-serif;
+}
+
+p{
+    color: black;
+    padding: 3px;
+}
+
+h3{
+    color: white;
+    text-align: $center;
+    text-shadow: $texshad;
+}

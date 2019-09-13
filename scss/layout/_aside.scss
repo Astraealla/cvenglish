@@ -1,0 +1,11 @@
+.aside{
+
+    &__contact{
+        border: $border;
+        border-radius: $radius;
+        margin-top: $martop;
+        height: 300px;
+        background-image: linear-gradient(to right top, #ffe1ab, #e5c08a, #cb9f6a, #b1804d, #976131);
+        box-shadow: $boxshad;
+    }
+}
